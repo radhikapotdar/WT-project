@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "century Gothic", sans-serif;
+
+}
+.navlist{
+    width: 100%;
+    padding: 6px 10px;
+}
+.navlist ul{
+    display: flex;
+    list-style: none;
+}
+.navlist ul li: first-child{
+    flex: 1;
+}
+.navlist ul h4{
+    font-family: serif;
+}
+.navlist ul a{
+    margin-left: 200px;
+}
+.container{
+    width: 100px;
+    height: 80vh;
+    padding-top: 30vh;
+    background-image: linear-gradient( #000000c3, #000000c3);
+    text-align: center;
+    color: #f60;
+}
+.container h1{
+    font-family: serif;
+    margin-bottom:20px;
+}
+.container p{
+    margin-bottom: 30px;
+    letter-spacing: 20px;
+}
+.container button{
+    padding: 10px;
+    background: none;
+    border: 1px solid #f40;
+}
+
+
+
+
